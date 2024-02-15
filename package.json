@@ -1,0 +1,36 @@
+{
+  "name": "ronaldzav",
+  "version": "1.0.0",
+  "description": "discord bot base by ronaldzav",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonaldZav/discordbot-base"
+  },
+  "keywords": [
+    "discord.js-v14"
+  ],
+  "author": "ronaldzav",
+  "license ": "GPL",
+  "bugs": "https://github.com/RonaldZav",
+  "homepage": "https://github.com/RonaldZav",
+  "dependencies": {
+    "@discordjs/rest": "^1.0.0",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.12",
+    "console": "^0.7.2",
+    "delay": "^5.0.0",
+    "discord.js": "^14.12.1",
+    "dotenv": "^10.0.0",
+    "jquery": "^3.6.3",
+    "jsonfile": "^6.1.0",
+    "moment-duration-format": "^2.3.2",
+    "node-fetch": "^2.6.9",
+    "node-superfetch": "^0.2.3",
+    "quick.db": "^9.0.6"
+  }
+}
