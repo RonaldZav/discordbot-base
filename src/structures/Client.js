@@ -30,7 +30,6 @@ class RonaldZav extends Client {
     this.config = require("../client.js");
     this.debug = this.config.debug;
     this.prefix = settings.prefix;
-    this.settings = settings;
     this.embedColor = settings.embedColor;
     this.aliases = new Collection();
     this.commands = new Collection();
