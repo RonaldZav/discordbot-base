@@ -1,5 +1,4 @@
 const { PermissionsBitField, InteractionType, ActionRowBuilder, EmbedBuilder, ChannelType, ButtonBuilder, ButtonStyle, StringSelectMenuBuilder, StringSelectMenuOptionBuilder, Embed } = require("discord.js");
-const discordTranscripts = require('discord-html-transcripts');
 
 module.exports = {
   name: "interactionCreate",
