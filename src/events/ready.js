@@ -2,7 +2,7 @@ const { Activity } = require("discord.js");
 
 module.exports ={
 name: "ready",
-run: async (client) => { const settings = client.settings;
+run: async (client) => {
 	
 client.logger.log(`
     
