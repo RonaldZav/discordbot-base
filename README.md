@@ -1,5 +1,5 @@
-# Instalación
-## ⚠ DEBE TENER INSTALADO NODEJS v18 ⚠
+# Instalation
+## ⚠ REQUIRE NODE.JS v20+ ⚠
 
-1. Instala las dependencias usando `npm install`.
-2. Inicia la aplicación con `node src/index.js`.
+1. Install dependencies using `npm install`.
+2. Start using `node src/index.js`.
