@@ -4,7 +4,7 @@ module.exports = {
     name: "ping",
     description: "Medir latencia cliente a servidor.",
 
-    run: async (client, interaction) => { await interaction.deferReply({ ephemeral: false });
+    run: async (client, interaction, database) => { await interaction.deferReply({ ephemeral: false });
 	
         await interaction.editReply({ content: `Midiendo latencia...` }).then(async () => {
             const ping = Date.now() - interaction.createdAt;

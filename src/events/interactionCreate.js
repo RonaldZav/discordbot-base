@@ -27,7 +27,7 @@ module.exports = {
       }
 
       try {
-        await command.run(client, interaction, "!");
+        await command.run(client, interaction, client.database);
       } catch (error) {
         const errorMessage = `¡Ha ocurrido un error! Avisa al equipo de soporte.`;
 

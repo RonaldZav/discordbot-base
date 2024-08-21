@@ -3,16 +3,7 @@ const { Activity } = require("discord.js");
 module.exports ={
 name: "ready",
 run: async (client) => {
-	
-client.logger.log(`
-    
-      Desarrollado por RonaldZav
-    Visita mi web en ronaldzav.com
-
-  Sesion: ${client.user.username} / Servidores: ${client.guilds.cache.size}
-
-`, "ready");
-
+    client.logger.log(`Session started in ${client.user.username}.`);
   	client.user.setActivity("ronaldzav.com", {type: Activity.Watching});
 
 }}
